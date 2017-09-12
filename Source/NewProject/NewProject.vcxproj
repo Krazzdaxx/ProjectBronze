@@ -72,12 +72,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>..\Game\$(PlatformName)</OutDir>
-    <IntDir>..\Temp</IntDir>
+    <OutDir>..\..\Game\$(PlatformName)</OutDir>
+    <IntDir>..\..\Temp</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>..\Game\$(PlatformName)</OutDir>
-    <IntDir>..\Temp</IntDir>
+    <OutDir>..\..\Game\$(PlatformName)</OutDir>
+    <IntDir>..\..\Temp</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
