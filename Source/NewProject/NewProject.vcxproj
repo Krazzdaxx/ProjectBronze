@@ -19,7 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Julian%27s Laptop\Desktop\NewProject\Source\Main.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="SpecialAbilitiesComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbilitesInterface.h" />
+    <ClInclude Include="SpecialAbilitiesComponent.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{08673E45-B1C5-40CE-87A1-C4FA91D1B2DB}</ProjectGuid>
